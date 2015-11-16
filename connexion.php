@@ -14,7 +14,7 @@ class connexion extends PDO {
         $this->sgbd = 'mysql';
         $this->hote = 'localhost22';
         $this->bd = 'cv';
-        $this->user = 'util2';
+        $this->user = 'uti';
         $this->pass = '';
         $dsn = $this->sgbd.':dbname='.$this->bd.";host=".$this->hote;
         
