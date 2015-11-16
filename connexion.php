@@ -13,8 +13,8 @@ class connexion extends PDO {
     public function __construct( ) {
         $this->sgbd = 'mysql';
         $this->hote = 'localhost';
-        $this->bd = 'cvven';
-        $this->user = 'utilisateur';
+        $this->bd = 'cv';
+        $this->user = 'util2';
         $this->pass = '';
         $dsn = $this->sgbd.':dbname='.$this->bd.";host=".$this->hote;
         
