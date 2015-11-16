@@ -65,8 +65,7 @@ class connexion extends PDO {
       
         $ma_date=$annee.'-'.$mois.'-'.$jour;
         
-        $requete="Select COUNT(*) FROM reservation
-                    WHERE '$ma_date' BETWEEN Date_Arrivee AND SUBDATE(Date_Depart,1)" ;
+       
         
         $resultat_requete=$this->query($requete) or die("erreur est_reserve");
         $resultat=$resultat_requete->fetchColumn();
