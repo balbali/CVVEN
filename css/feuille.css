@@ -1,0 +1,127 @@
+/* 
+    Document   : style-utec
+    Created on : 2 oct. 2013, 00:55:43
+    Author     : Clem
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+.calendrier
+{
+  border: medium solid #000000;
+  border-collapse: collapse;
+  width: auto;
+  margin: auto;
+}
+
+
+table 
+{
+  border: medium solid #000000;
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.cal-annee
+{
+    border:none;
+    width:auto;
+}
+
+.cal-navig
+{
+    border:none;
+    width:100%;
+}
+
+.anneesuiv
+{
+    border: none;
+    text-align: right;
+}
+
+
+.anneeprec
+{
+    border: none;
+    text-align: left;
+}
+
+.utilisateurs
+{
+    border:none;
+    width:50%;
+}
+
+
+.tablegen
+{ 
+  text-align:center; 
+  width:50%;
+}
+
+
+caption
+{
+  font-size: 20px;
+}
+
+
+td
+{
+  border: thin solid #6495ed;
+  font-size: 11px;
+}
+
+.grisee
+{
+    color: darkgray
+}
+
+.complet
+{
+    font-weight: bold;
+    background-color: red;
+}
+
+.reservation
+{
+    color:blue;
+    font-weight: bold;
+}
+
+.demande{
+    color:darkorange;
+    font-weight: bold;
+}
+
+
+th 
+{
+  background-color: #D0E3FA;
+  border: thin solid #6495ed;
+  font-size: 12px;
+  text-align: center;
+}
+
+h1
+{ 
+  font-size : 16px; 
+  text-align: center;
+  background-color: #6495ed; 
+}
+
+
+h2
+{ 
+  font-size : 12px; 
+  color: #6495ff;
+}
+
+.admin
+{
+    background-color: lightblue;
+}
